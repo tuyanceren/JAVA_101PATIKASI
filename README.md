@@ -46,6 +46,43 @@ public class kdv_tutarı {
 
     }
 }
-
 ```
+**Dik Üçgende Hipotenüs Bulan Program**
+-
+```java
+import java.util.Scanner;
+
+public class hipotenüs_bulma {
+    public static void main(String[] args){
+        Scanner kenarlar = new Scanner(System.in);
+        System.out.print("kenar giriniz : ");
+        int a = kenarlar.nextInt();
+        System.out.print("kenar giriniz : ");
+        int b = kenarlar.nextInt();
+        double hipotenüs  = Math.sqrt((a*a) + (b*b));
+        System.out.println("hiponetüs : " + hipotenüs);
+    }
+}
+```
+**Kenarları Verilen Üçgenin Alanını Bulma**
+-
+```java
+import java.util.Scanner;
+
+public class ucgenin_alanı {
+    public static void main(String[] args){
+        Scanner kenarlar = new Scanner(System.in);
+        System.out.print("1. kenarı giriniz : ");
+        int a = kenarlar.nextInt();
+        System.out.print("2. kenarı giriniz : ");
+        int b = kenarlar.nextInt();
+        System.out.print("3. kenarı giriniz : ");
+        int c = kenarlar.nextInt();
+        int cevre = (a+b+c)/2;
+        double alan = Math.sqrt(cevre * (cevre-a) * (cevre-b) * (cevre-c));
+        System.out.println("üçgeninizin alanı : " + alan);
+    }
+}
+```
+
 Aldığım eğitimleri sizde almak isterseniz [patika.dev](https://app.patika.dev/paths) sayfasını ziyaret edebilirsiz.
