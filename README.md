@@ -249,6 +249,6 @@ public class kullanici_girisi {
         }
     }
 }
-
+```
 
 Aldığım eğitimleri sizde almak isterseniz [patika.dev](https://app.patika.dev/paths) sayfasını ziyaret edebilirsiz.
