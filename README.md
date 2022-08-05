@@ -29,6 +29,7 @@ public class not_hesaplama {
 ```
 **KDV Tutarı Hesaplayan Program**
 -
+
 ```java
 import java.util.Scanner;
 public class kdv_tutarı {
@@ -66,6 +67,11 @@ public class hipotenüs_bulma {
 ```
 **Kenarları Verilen Üçgenin Alanını Bulma**
 -
+- FORMÜL 
+    * Üçgenin çevresi = 2𝑢
+    * 𝑢 = (a+b+c) / 2
+    * Alan * Alan = 𝑢 * (𝑢 − 𝑎)* (𝑢 − 𝑏) * (𝑢 − 𝑐)
+
 ```java
 import java.util.Scanner;
 
@@ -105,6 +111,10 @@ public class taksimetre {
 ```
 **Daire Diliminin Alanı**
 -
+- FORMÜL
+
+    Daire Diliminin Alanı : (𝜋 * (r*r) * 𝛼) / 360
+
 ```java 
 import java.util.Scanner;
 
@@ -124,10 +134,12 @@ public class daire_diliminin_alanı {
         System.out.println("daire diliminin alanı :" + dilim_alanı);
     }
 }
-//Formül : (𝜋 * (r*r) * 𝛼) / 360
 ```
 **Vücut Kitle İndeksi Hesaplama**
 -
+- FORMÜL
+    Vücut Kitle İndeksi : Kilo (kg) / Boy(m) * Boy(m)
+
 ```java
 import java.util.Scanner;
 
@@ -145,7 +157,6 @@ public class vucut_kitle_indeksi {
 
     }
 }
-//Formül : Kilo (kg) / Boy(m) * Boy(m)
 ```
 **Manav Kasa Programı**
 -
@@ -173,6 +184,7 @@ public class manav_kasa {
 }
 ```
 **Hesap Makinesi**
+-
 ```java
 import java.util.Scanner;
 
@@ -288,6 +300,12 @@ public class sinif_gecme_durumu {
 ```
 **Hava Sıcaklığına Göre Etkinlik Önerme**
 -
+- KOŞULLAR
+    * Sıcaklık 5'dan küçük ise "Kayak" yapmayı öner.
+    * Sıcaklık 5 ve 15 arasında ise "Sinema" etkinliğini öner.
+    * Sıcaklık 15 ve 25 arasında ise "Piknik" etkinliğini öner.
+    * Sıcaklık 25'ten büyük ise "Yüzme" etkinliğini öner.
+
 ```java
 import java.util.Scanner;
 
@@ -316,6 +334,7 @@ public class havaya_gore_etkinlik {
 ```
 **Sayıları Büyükten Küçüğe Sıralama**
 -
+
 ```java
 import java.util.Scanner;
 
@@ -352,6 +371,8 @@ public class sayı_sıralama {
 ```
 **Burç Bulan Program**
 -
+<img width="341" alt="Ekran Resmi 2022-08-05 16 49 31" src="https://user-images.githubusercontent.com/76476291/183091104-3995a9a1-48e9-4690-8279-3957b8fa46f6.png">
+
 ```java
 import java.util.Scanner;
 
@@ -538,6 +559,8 @@ public class burc_bulma {
 ```
 **Artık Yıl Hesaplama**
 -
+<img width="716" alt="Ekran Resmi 2022-08-05 16 49 02" src="https://user-images.githubusercontent.com/76476291/183091025-2c5eb43c-c213-4a65-a1d0-a4deacfaeb1d.png">
+
 ```java
 import java.util.Scanner;
 
@@ -567,6 +590,13 @@ public class Artık_yıl_hesaplama {
 ```
 **Uçak Bileti Fiyatı Hesaplama**
 -
+- KOŞULLAR
+    * Kullanıcıdan alınan değerler geçerli (mesafe ve yaş değerleri pozitif sayı, yolculuk tipi ise 1 veya 2) olmalıdır. Aksi takdirde kullanıcıya "Hatalı          Veri >Girdiniz !" şeklinde bir uyarı verilmelidir.
+    * Kişi 12 yaşından küçükse bilet fiyatı üzerinden %50 indirim uygulanır.
+    * Kişi 12-24 yaşları arasında ise bilet fiyatı üzerinden %10 indirim uygulanır.
+    * Kişi 65 yaşından büyük ise bilet fiyatı üzerinden %30 indirim uygulanır.
+    * Kişi "Yolculuk Tipini" gidiş dönüş seçmiş ise bilet fiyatı üzerinden %20 indirim uygulanır.
+
 ```java
 import java.util.Scanner;
 
@@ -614,6 +644,8 @@ public class ucak_bileti_fiyatı {
 ```
 **Çin Zodyağı Hesaplama**
 -
+<img width="604" alt="Ekran Resmi 2022-08-05 16 38 55" src="https://user-images.githubusercontent.com/76476291/183089763-1ac971f4-bfc1-480c-b450-0a5ce00193d9.png">
+
 ```java
 import java.util.Scanner;
 
@@ -669,6 +701,7 @@ public class cin_zodyagı {
 ```
 **Girilen Sayıya Kadar Olan Sayıların 3'e Ve 4'e Bölünenlerin Toplamı Bulma**
 -
+
 ```java
 import java.util.Scanner;
 
@@ -692,6 +725,7 @@ public class sayı_yazdırma {
 **Verilen Kosullara Uygun Sayıların Toplamı**
 -
 Java döngüler ile tek bir sayı girilene kadar kullanıcıdan girişleri kabul eden ve girilen değerlerden çift ve 4'ün katları olan sayıları toplayıp ekrana basan program.
+
 ```java
 import java.util.Scanner;
 
@@ -734,6 +768,9 @@ public class girilen_sayiya_kadar_olan_4_ve_5_in_kuvvetlerini_yazdir {
 ```
 **Kombinasyon Hesaplayan Program**
 -
+
+<img width="717" alt="Ekran Resmi 2022-08-05 16 35 21" src="https://user-images.githubusercontent.com/76476291/183088570-f27d3eb8-adcd-47ae-be3b-3f1b6a6524b2.png">
+
 ```java
 import java.util.Scanner;
 
@@ -763,6 +800,8 @@ public class kombinasyon_bulma {
 ```
 **Üslü Sayı Hesaplayan Program**
 -
+Java ile "FOR DÖNGÜSÜ" kullanarak kullanıcının girdiği değerlerle üslü sayı hesaplama programı 
+
 ```java
 import java.util.Scanner;
 
@@ -786,6 +825,9 @@ public class uslu_sayı_hesaplama {
 ```
 **Bir Sayının Rakamları Toplamını Hesaplayan Program**
 -
+
+Örnek : 1643 = 1 + 6 + 4 + 3 = 14
+
 ```java
 import java.util.Scanner;
 
@@ -809,6 +851,9 @@ public class sayının_rakamlarını_toplama {
 ```
 **Bir Sayının Harmonik Serisini Bulan Program**
 -
+
+<img width="714" alt="Ekran Resmi 2022-08-05 16 28 07" src="https://user-images.githubusercontent.com/76476291/183087416-12b0ce7c-f8fa-4b94-8129-2cee9de7cd3c.png">
+
 ```java
 import java.util.Scanner;
 
@@ -831,6 +876,10 @@ public class harmonik_sayılar {
 ```
 **Yıldızlar İle Elmas**
 -
+- OUTPUT
+
+<img width="284" alt="Ekran Resmi 2022-08-05 16 13 12" src="https://user-images.githubusercontent.com/76476291/183085493-aeb0d8e9-5103-44ab-8e5e-19b962b4d9f2.png">
+
 ```java
 import java.util.Scanner;
 
